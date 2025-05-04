@@ -1,0 +1,1610 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", sans-serif;
+    }
+    #navbar {
+        display: flex;
+        gap: 270px;
+        justify-content: space-around;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        align-items: center;
+        max-width: 1440px;
+        margin: auto;
+    }
+    .navbar-toggle {
+        display: none;
+    }
+    .nav-logo {
+        max-width: 291px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .nav-menu {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        justify-content: space-around;
+    }
+    .nav-menu .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .nav-menu .nav-links li a {
+        color: #000000;
+    }
+    .nav-buttons {
+        display: flex;
+        gap: 14px;
+        
+    }
+    .signin-btn {
+        padding: 10px 32px;
+        background-color: #295782;
+        color: #ffff;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    .cta-btn {
+        padding: 10px 13px;
+        background-color: #295782;
+        color: #ffff;
+        font-weight: 500;
+        font-size: 16px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;    
+    }
+.signin-btn:hover{
+    background-color: #243044;
+}
+.cta-btn:hover{
+    background-color: #243044;
+}
+    /* hero-section */
+
+    .career-hero {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1440px;
+        margin: auto;
+    }
+    
+    .career-hero-text h2 {
+        max-width: 687px;
+        padding-top: 60px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0%;
+    }
+    
+    .career-hero-text p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #243044;
+        line-height: 23px;
+        letter-spacing: 0%;    
+        max-width: 590px;
+        padding-top: 10px;
+        padding-bottom: 28px;
+    }
+    
+    .career-hero-buttons {
+        display: flex;
+        gap: 28px;
+        padding-bottom: 54px;
+    }
+    
+    .career-img-single img {
+        padding-top: 30px;
+    }
+    
+    .career-btn {
+        padding: 16px 35px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffff;
+        background-color: #295782;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .career-btn.primary {
+        padding: 16px 35px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffff;
+        background-color: #295782;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .career-social-icons i {
+        font-size: 34px;
+    }
+    
+    .career-hero-stats {
+        display: flex;
+        gap: 31px;
+        padding-bottom: 31px;
+    }
+    
+    .career-stat {
+        width: 168px;
+        height: 108px;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 16px 0px #00000040;
+        background-color: #ffffff;
+    }
+    
+    .career-stat i {
+        font-size: 27px;
+        height: 21px;
+        color: #295782;
+        padding-bottom: 4px;
+        padding-top: 18px;
+    }
+    
+    .career-stat p {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #295782;   
+        padding-bottom: 6px;
+    }
+    
+    .career-stat h3 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        padding-bottom: 18px;
+        padding-left: 28px;
+        padding-right: 28px;
+        color: #295782;   
+    }
+    
+    .career-social-icons {
+        display: flex;
+        gap: 16px;
+    }
+    
+    .career-social-icons i {
+        color: #295782;
+        height: 35px;
+        border-radius: 20px;
+        gap: 10px;
+        width: 35px;
+    }
+    
+    .career-hero-images {
+        display: flex; 
+        gap: 19px;
+        padding-bottom: 121px;
+        padding-top: 40px;
+    }
+    
+    .career-img-pair {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 24px;
+    }
+     /* Hero Section  */
+     .shadow-container{
+        position: relative;
+     }
+     .shadow-hero{
+        position: absolute;
+        z-index: -1;
+     }
+     .hero-bindu{
+        position: relative;
+        
+     }
+     .bindu-img{
+        position: absolute;
+        left: 1070px;
+        top: 245px;
+        z-index: 1;
+     }
+     .bindu-red{
+        position: absolute;
+        left: 1050px;
+        top: 275px;
+     }
+     .bindu-blue{
+        position: absolute;
+        left: 1095px;
+        top: 205px;
+     } 
+     .bindu-blue2{
+        position: absolute;
+        left: 1030px;
+        top: 235px
+     } 
+
+     /* services section */
+     .service-shadow {
+        position: relative;
+    }
+    
+    .shadow-service {
+        position: absolute;
+        z-index: -1;
+        left: 280px;
+        top: -300px;
+    }
+    
+    .service-section {
+        padding-bottom: 100px;
+        max-width: 1440px;
+        margin: auto;
+    }
+    
+    .service-header h1 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .service-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .service-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .service-card {
+        border: 1px solid #00000066;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    
+    .service-btn-wrapper {
+        padding-bottom: 25px;
+    }
+    
+    .service-card img {
+        padding: 40px;
+    }
+    
+    .service-card h2 {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 100%;
+        padding-bottom: 30px;
+    }
+    
+    .service-card p {
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;
+        padding-left: 40px;
+        max-width: 544px;
+        text-align: start;
+        color: #243044;
+        padding-bottom: 42px;
+    }
+    
+    .service-btn {
+        padding: 12px 20px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 100%;
+        color: #FFFFFF;
+        background-color: #3047EC;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .service-btn:hover {
+        background-color: #243044;
+    }    
+
+    /* Career Counselling in Gilgit-Baltistan Section */
+.career-gb-section {
+    padding-bottom: 100px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.career-gb-heading {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.career-gb-card-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.career-gb-card {
+    border: solid 1px #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFDFD;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.career-gb-profile {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.career-gb-info h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+}
+
+.career-gb-info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-bottom: 12px;
+}
+
+.career-gb-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    max-width: 500px;
+    padding: 16px 15px 35px 15px;
+    text-align: center;
+}
+
+.career-gb-stars img {
+    width: 42px;
+}
+
+
+.applic-shadow {
+    position: relative;
+}
+
+.app-shadow {
+    position: absolute;
+    z-index: -1;
+    bottom: 10px;
+}
+
+/* gallery section */
+.photo-gallery {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 100px;
+}
+
+.photo-gallery h2 {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.gallery-row.row-2 {
+    margin-top: -240px;
+    z-index: 1;
+}
+
+.gallery-row.row-3 {
+    margin-top: -60px;
+}
+.gallery-row.row-4{
+    margin-top: -240px;
+    z-index: 1;
+}
+
+.gallery-images img {
+    width: 100%;
+    max-width: 548px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+.footer-section {
+
+    background-color: #D9D9D9;
+    display: flex;
+    gap: 283px;
+    padding: 50px 20px;
+    max-width: 1440px;
+    margin: auto;
+}
+.footer-left{
+    padding-left: 100px;
+}
+.footer-left h2 {
+    font-weight: 700;
+    font-size: 56px;
+    padding-bottom: 47px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-item p {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.contact-item i {
+    font-size: 32px;
+    color: #000000;
+}
+
+
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #000000;
+    padding: 8px 12px;
+   
+}
+
+.search-wrapper i {
+    color: #000000;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+
+.search-wrapper input {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 26px;
+ 
+    font-weight: 500;
+}
+
+/* hero section */
+.hero-about{
+    max-width: 1440px;
+    margin: auto;
+    background-image: url(./assets/f01b6e9cd29a4bbed6a937bede0a8e21\ \(1\).jpeg);
+    max-width: 1475px;
+    background-repeat: no-repeat;
+    background-size: 1475px 550px;
+    height: 450px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.hero-about h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 300px;
+    letter-spacing: 0%;
+    
+
+}
+
+/* overview section */
+    
+.overview-about{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    
+ }
+ .overview-text{
+    text-align: center;
+ }
+ .overview-text h2{
+     font-weight: 700;
+     font-size: 60px;
+     line-height: 100%;
+     letter-spacing: 0%;
+    
+     padding-bottom: 20px;
+     
+ }
+ .overview-text p{
+    max-width: 671px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    padding-bottom: 30px;
+    text-align: start;
+
+ }
+ .overview-text button{
+    padding: 12px 20px;
+    background-color: #3047EC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+ }
+.overview-text button:hover{
+    background-color: #243044;
+    transition: all 0.3s ease;
+}
+
+/* our team section */
+.team-section {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 90px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    box-shadow: -6px -6px 4px 0px #00000040, 7px 10px 4px 0px #00000040;
+    border: solid 4px #e9e9e9;
+}
+
+.member-name {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 30px;
+}
+
+.member-role {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-top: 10px;
+}
+
+.member-description {
+    max-width: 388px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    padding: 20px 15px 36px 15px;
+    text-align: start;
+}
+
+.team-card img {
+    padding-top: 20px;
+}
+.team-cards-wrapper {
+    display: flex;
+    text-align: center;
+}   
+.social-links {
+    display: flex;
+    gap: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding-bottom: 15px;
+}
+
+.social-links li i {
+    color: #3047EC;
+    font-size: 33px;
+}
+
+.card-two .social-links li i {
+    color: #3047EC;
+    font-size: 33px;
+}
+.team-card p{
+    text-align: center;
+}
+
+
+
+
+.team-card {
+    transition: all 0.4s ease-in-out;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+    background-color: #3047EC;
+    color: white;
+}
+
+.social-links li i {
+    transition: color 0.4s ease-in-out;
+}
+.team-card:hover .social-links li i {
+    color: white;
+}
+
+   /* About Info */
+    
+   .about-info{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B567C;
+    color: #ffffff;
+ }
+ .about-info h1{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+ }
+ .about-info p{
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    max-width: 1166px;
+    padding-bottom: 50px;
+ }
+
+ /* footer section */
+ .about-fote ul{
+    display: flex;
+    gap: 80px;
+    
+ }
+ .about-fote ul li a{
+    color: #000000;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+ }
+.about-fote ul li a:hover{
+    color: #3047EC;
+    transition: all 0.3s ease;
+}
+/* contact us */
+
+.header-section {
+    background: url('./assets/38db80a668595b79e6321b7bc699a36d.png') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 100px auto 50px auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+  }
+
+  .contact-image {
+    flex: 1;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .contact-image img {
+    max-width: 100%;
+  }
+
+  .contact-form {
+    flex: 1;
+    padding: 40px 30px;
+    
+  }
+
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+   
+  }
+  .input-with-icon {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .input-with-icon input,
+  .input-with-icon textarea {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* right padding for icon */
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    resize: none;
+  }
+  
+  .input-with-icon i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+  }
+  
+  
+  .terms-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .terms-checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    color: #0066ff;
+  }
+  .contact-form label {
+    font-size: 14px;
+  }
+
+  .contact-form button {
+    background-color: #0066ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 10px;
+    
+  }
+
+/* media query */
+
+/* Responsive design using media queries */
+
+
+@media (max-width: 1280px){
+    .bindu-img, .bindu-red, .bindu-blue, .bindu-blue2 {
+        display: none;
+    }
+}
+@media (max-width: 1024px) {
+    *{
+        max-width: 100%;
+        margin: auto;
+    }
+    header{
+        max-width: 1440px;
+        margin: auto;
+    }
+    #navbar {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+    .nav-buttons {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .nav-logo {
+        max-width: 250px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    #navbar a {
+        font-size: 14px;
+    }
+    .signin-btn {
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+    .cta-btn{
+        padding: 9px 15px;
+        font-size: 10px;
+    }
+    .nav-menu {
+        display: flex ;
+        align-items: center;
+        gap: 14px;
+        justify-content: space-around;
+    }
+    .nav-menu .nav-links {
+        display: flex
+    ;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+    }
+    .bindu-img, .bindu-red, .bindu-blue, .bindu-blue2 {
+        display: none;
+    }
+
+    .career-hero-images img {
+        width: 80%;
+        height: auto;
+    }
+    .service-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .service-card {
+        border: 1px solid #00000066;
+        background-color: #FFFFFF;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .footer-section {
+        background-color: #D9D9D9;
+        display: flex
+    ;
+        flex-direction: column;
+        gap: 87px;
+        padding: 50px 20px;
+        max-width: 1440px;
+        margin: auto;
+    }
+/* 
+    body{
+        margin: auto;
+        max-width: 768px;
+    } */
+     .bindu-img, .bindu-red, .bindu-blue, .bindu-blue2 {
+        display: none;
+    }
+    .career-gb-card-group {
+    flex-direction: column;
+ 
+}
+
+.career-gb-profile {
+    display: flex
+;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    text-align: center;
+}
+ 
+    /* .nav-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu li {
+        display:block;
+        flex-direction: column;
+        width: 100%;
+    } */
+    .shadow-hero {
+        display: none;
+    }
+    /* .nav-menu{
+        border: 2px solid black;
+        align-items: center;
+        text-align: center;
+        width: 200px;
+        position: absolute;
+        left: -150px;
+        border-radius: 10px;
+        top: 100px;
+        transition: all 2s ease-in-out;
+        background-color: #243044;
+    }
+    .nav-menu ,.nav-links {
+        display: flex ;
+    flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        justify-content: space-around;
+        color: wheat;
+    }
+    .nav-menu li{
+        color: white;
+    } */
+     
+
+    /* .navbar-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    } */
+
+
+    /* ✅ Hero Section */
+    .career-hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .career-hero-images {
+        display: none;
+    }
+
+    .career-hero-text h2 {
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .career-hero-text p {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .career-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 0;
+    }
+
+    .career-hero-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 40%;
+    }
+    .career-social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    } 
+.career-btn.primary {
+    padding: 8px 20px ;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 0px;
+}
+.career-gb-heading {
+    font-weight: 700;
+    font-size: 40px;
+}
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.gallery-images img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* about section */
+.overview-about {
+    flex-direction: column;
+    gap: 20px;
+}
+.overview-text p {
+    text-align: center;
+}
+.overview-text br{
+    display: none;
+}
+.team-cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.about-fote ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    gap: 20px;
+}
+.member-description {
+    line-height: 21px;
+    padding: 5px 15px 17px 15px;
+}
+}
+@media (max-width: 768px) {
+    /* ✅ Navbar */
+  *{
+    max-width: 100%;
+    margin: auto;
+  }
+     .bindu-img, .bindu-red, .bindu-blue, .bindu-blue2 {
+        display: none;
+    }
+    .career-gb-card-group {
+    flex-direction: column;
+ 
+}
+.career-gb-profile {
+    display: flex
+;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    text-align: center;
+}
+    #navbar {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* .nav-menu li {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    } */
+    .nav-menu{
+        border: 2px solid black;
+        position: absolute;
+        left: -150px;
+        top: 20px;
+        /* transition: all 2s ease-in-out; */
+    }
+    .nav-menu ,.nav-links {
+        display: flex ;
+    flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        justify-content: space-around;
+    }
+    .navbar-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+    }
+
+    .nav-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .nav-logo {
+        max-width: 291px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+    #navbar a {
+        font-size: 14px;
+    }
+
+    /* ✅ Hero Section */
+    .career-hero {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .career-hero-images {
+        display: none;
+    }
+
+    .career-hero-text h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .career-hero-text p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .career-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+        border-radius: 0;
+    }
+
+    .career-hero-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 40%;
+    }
+    .career-social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    } 
+.career-btn.primary {
+    padding: 8px 20px ;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+    /* ✅ Headings and Paragraphs */
+    .service-header h1,
+    .photo-gallery h2,
+    .career-gb-heading,
+    .footer-left h2,
+    .hero-about h1,
+    .overview-text h2,
+    .team-title,
+    .why-do h2 {
+        font-size: 21px;
+    }
+
+    .overview-text p,
+    .career-gb-info p,
+    .career-gb-text p,
+    .service-card p,
+    .service-card h2 {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .cta-btn,
+    .signin-btn,
+    .overview-text button {
+    
+        display: none;
+    }
+
+    /* ✅ Gallery */
+    .photo-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .gallery-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .gallery-row img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .gallery-row.row-2,
+    .gallery-row.row-4 {
+        margin-top: 0;
+    }
+
+    /* ✅ Our Services - Wrap + No Radius */
+    .service-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+     
+    }
+
+    .service-card {
+        width: 90%;
+        max-width: 300px;
+        background-color: #fff;
+        border-radius: 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        
+    }
+    .service-row {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .service-card img {
+       width: 217px;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 0;
+    }
+
+    .service-card button {
+        font-size: 14px;
+        padding: 6px 12px;
+        border-radius: 0;
+    }
+
+    /* ✅ Why Do Section - Smaller Centered Cards */
+    .why-do-card {
+        width: 90%;
+        max-width: 320px;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .why-do-card img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 0;
+        margin-bottom: 10px;
+    }
+
+    /* ✅ Team / Career / Footer Cards */
+    .career-gb-cards,
+    .team-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .career-gb-card,
+    .team-card {
+        width: 90%;
+        max-width: 320px;
+        padding: 16px;
+        background-color: #fff;
+        border-radius: 0;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* ✅ Footer */
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .footer-left {
+        padding-left: 0;
+    }
+
+    .search-wrapper input {
+        font-size: 18px;
+        border-radius: 0;
+    }
+
+    .contact-item p {
+        font-size: 20px;
+    }
+
+    .contact-item i {
+        font-size: 24px;
+    }
+
+    /* about section */
+    .overview-about {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .overview-text p {
+        text-align: center;
+    }
+    .overview-text br{
+        display: none;
+    }
+    .about-info p {
+        font-size: 16px;
+    }
+    .team-cards-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .overview-img img{
+        width: 400px;
+    }
+    .about-info p{
+        line-height: 20px;
+    }
+    .about-fote ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .member-description {
+        line-height: 21px;
+        padding: 5px 15px 17px 15px;
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+*{
+    max-width: 100%;
+    margin: auto;
+}
+    .career-btn,
+    .cta-btn,
+    .signin-btn,
+    .service-card button {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding: 6px 12px;
+        border-radius: 0;
+        display: none;
+    }
+        .career-gb-card-group {
+    flex-direction: column;
+ 
+}
+.career-gb-profile {
+    display: flex
+;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    text-align: center;
+}
+    .nav-logo {
+        font-size: 6px;
+    }
+    .career-social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .career-hero-buttons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+    }
+    
+.career-btn.primary {
+    padding: 8px 20px ;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+
+    .service-card p {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .gallery-row img {
+        max-width: 100%;
+    }
+    .service-row {
+        display: flex ;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .service-card,
+    .career-gb-card,
+    .team-card,
+    .why-do-card {
+        width: 95%;
+    }
+
+    .photo-gallery h2,
+    .service-header h1 {
+        font-size: 24px;
+    }
+
+    .why-do-card img {
+        width: 50px;
+        height: 50px;
+    }
+    .service-card img {
+        width: 217px;
+    }   
+    .overview-about {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .overview-text p {
+        text-align: center;
+    }
+    .overview-text br{
+        display: none;
+    }
+    .about-info p {
+        font-size: 16px;
+    }
+    .team-cards-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .overview-img img{
+        width: 400px;
+    }
+    .about-info p{
+        line-height: 20px;
+    }
+    .about-fote ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .member-description {
+        line-height: 21px;
+        padding: 5px 15px 17px 15px;
+    }
+}
+    /* Media Query: 1024px */
+    @media (max-width: 1024px) {
+        .header-section {
+          font-size: 1.8rem;
+          height: 250px;
+        }
+        .contact-container {
+          max-width: 90%;
+        }
+        .contact-form {
+          padding: 30px;
+        }
+      }
+  
+      /* Media Query: 768px */
+      @media (max-width: 768px) {
+        .contact-container {
+          flex-direction: column;
+          margin-top: -80px;
+        }
+        .contact-form {
+          padding: 20px;
+        }
+        .header-section {
+          font-size: 1.5rem;
+        }
+      }
+  
+      /* Media Query: 480px */
+      @media (max-width: 480px) {
+        .header-section {
+          font-size: 1.2rem;
+          height: 200px;
+        }
+        .contact-form h2 {
+          font-size: 20px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+          font-size: 14px;
+          padding: 8px;
+        }
+        .contact-form button {
+          width: 100%;
+          padding: 10px;
+          font-size: 16px;
+        }
+      }
