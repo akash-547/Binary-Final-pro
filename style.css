@@ -1153,17 +1153,22 @@
         width: 100%;
     } */
     .nav-menu{
-        border: 2px solid black;
+        
         position: absolute;
+        width:120px ;
         left: -150px;
+        border-radius: 10px;
         top: 20px;
-        /* transition: all 2s ease-in-out; */
+        box-shadow: 0px 0px 16px 0px #00000040;
+        background-color: #ffffff;
+        transition: all 2s ease-in-out;
     }
     .nav-menu ,.nav-links {
         display: flex ;
     flex-direction: column;
         align-items: center;
         gap: 10px;
+        padding-top: 10px;
         justify-content: space-around;
     }
     .navbar-toggle {
@@ -1175,6 +1180,15 @@
     .nav-buttons {
         flex-direction: column;
         gap: 10px;
+        padding-bottom: 20px;
+    }
+    .signin-btn{
+        padding: 9px 20px;
+        border-radius: 0px;
+    }
+    .cta-btn {
+        padding: 9px 9px;
+        border-radius: 0px;
     }
     .nav-logo {
         max-width: 291px;
@@ -1255,13 +1269,7 @@
         text-align: center;
         padding-left: 0px;
     }
-
-    .cta-btn,
-    .signin-btn,
-    .overview-text button {
-    
-        display: none;
-    }
+  
 
     /* ✅ Gallery */
     .photo-gallery {
@@ -1439,8 +1447,6 @@
     margin: auto;
 }
     .career-btn,
-    .cta-btn,
-    .signin-btn,
     .service-card button {
         width: 100%;
         text-align: center;
@@ -1471,6 +1477,14 @@
         align-items: center;
         justify-content: center;
         gap: 16px;
+    }
+    .signin-btn{
+        padding: 9px 20px;
+        border-radius: 0px;
+    }
+    .cta-btn {
+        padding: 9px 9px;
+        border-radius: 0px;
     }
     .career-hero-buttons {
         display: flex;
